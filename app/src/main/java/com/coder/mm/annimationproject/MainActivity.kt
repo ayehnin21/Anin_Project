@@ -21,6 +21,9 @@ class MainActivity : AppCompatActivity() {
         btnGoToScale.setOnClickListener {
             goActivity(ScaleAniActivity())
         }
+        btnGotoAni_001.setOnClickListener {
+            goActivity(Animation_001())
+        }
     }
 
 

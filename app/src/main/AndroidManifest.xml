@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ScaleAniActivity"></activity>
+        <activity android:name=".Animation_001"></activity>
+        <activity android:name=".ScaleAniActivity" />
         <activity android:name=".BounceActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
