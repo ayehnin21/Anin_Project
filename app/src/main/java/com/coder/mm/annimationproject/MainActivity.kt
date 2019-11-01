@@ -24,6 +24,9 @@ class MainActivity : AppCompatActivity() {
         btnGotoAni_001.setOnClickListener {
             goActivity(Animation_001())
         }
+        btnAnimations.setOnClickListener {
+            goActivity(Animations())
+        }
     }
 
 

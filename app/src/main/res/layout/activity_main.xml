@@ -19,8 +19,8 @@
 
     <Button
         android:id="@+id/btnGoToScale"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="247dp"
+        android:layout_height="39dp"
         android:layout_marginTop="12dp"
         android:text="Go to Scale Activity"
         app:layout_constraintEnd_toEndOf="@+id/btnGoToBounceAni"
@@ -29,11 +29,23 @@
 
     <Button
         android:id="@+id/btnGotoAni_001"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
+        android:layout_width="244dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="12dp"
         android:text="Go to  Ani 001"
         app:layout_constraintEnd_toEndOf="@+id/btnGoToScale"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="@+id/btnGoToScale"
         app:layout_constraintTop_toBottomOf="@+id/btnGoToScale" />
+
+    <Button
+        android:id="@+id/btnAnimations"
+        android:layout_width="225dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="12dp"
+        android:text="Go to Animations"
+        app:layout_constraintEnd_toEndOf="@+id/btnGotoAni_001"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="@+id/btnGotoAni_001"
+        app:layout_constraintTop_toBottomOf="@+id/btnGotoAni_001" />
 </androidx.constraintlayout.widget.ConstraintLayout>
